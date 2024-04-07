@@ -106,6 +106,20 @@ section {
   grid-gap: 64px;
 }
 
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 64px;
+}
+
+.card {
+  background: var(--white);
+  margin: 30px 0;
+}
+
+.card-header {
+  grid-gap: 0px;
+}
 footer {
   color: var(--white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
