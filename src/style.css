@@ -29,7 +29,7 @@ body {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/mosque_pattern2.jpg);
+    url(/travel-project/img/mosque_pattern2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: aliceblue;
@@ -70,16 +70,40 @@ button {
   background: var(--white);
 }
 
-@media (max-width: 800px) {
-  header {
-    padding: 60px 0;
-  }
-}
-
 footer {
   color: var(--white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/travel-project/img/isfahan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
 }
 
 footer a {
   color: var(--green);
+  color: var(--blue);
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.grid-3-columns-footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 60px;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 60px 0;
+  }
+  .grid-3-columns-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 30px;
+  }
 }
