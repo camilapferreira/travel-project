@@ -29,7 +29,7 @@ body {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/travel-project/img/mosque_pattern2.jpg);
+    url(/img/mosque_pattern2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: aliceblue;
@@ -73,7 +73,7 @@ button {
 footer {
   color: var(--white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/travel-project/img/isfahan.jpg);
+    url(/img/isfahan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
