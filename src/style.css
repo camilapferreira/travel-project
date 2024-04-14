@@ -201,4 +201,9 @@ footer a {
   .container {
     padding: 10px 0;
   }
+  .grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
 }
