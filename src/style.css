@@ -87,7 +87,7 @@ main h3 {
 main h4 {
   color: var(--dark-navy);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.5;
 }
 
@@ -149,7 +149,7 @@ h2.secondary-titles {
   padding: 16px 32px;
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
   text-align: center;
   text-decoration: none;
   border: none;
