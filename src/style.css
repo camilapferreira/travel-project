@@ -79,13 +79,35 @@ main p {
 }
 
 main h3 {
+  font-weight: 700;
   font-size: 32px;
   color: var(--dark-navy);
 }
+
+main h4 {
+  color: var(--dark-navy);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+main h5 {
+  color: var(--dark-navy);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
+}
+
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 64px;
 }
 
 .secondary {
@@ -95,15 +117,13 @@ section {
 .secondary-titles {
   text-align: center;
 }
-.img-responsive {
-  width: 100%;
-  display: block;
+
+h2.secondary-titles {
+  padding-top: 20px;
 }
 
-.grid-2-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 64px;
+.img-responsive {
+  width: 100%;
 }
 
 .grid-3-columns {
@@ -120,6 +140,27 @@ section {
 .card-header {
   grid-gap: 0px;
 }
+
+.card-body {
+  margin: 34px;
+}
+
+.button-card {
+  padding: 16px 32px;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  font-size: 14px;
+  color: var(--white);
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: var(--dark-green);
+}
+
 footer {
   color: var(--white);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
